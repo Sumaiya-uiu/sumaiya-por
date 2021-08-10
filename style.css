@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.color-orange{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+    margin-left: 100px;
+}
+.head-sec{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width img{
+    width: 80%;
+}
+.half-width a{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(180, 171, 38),rgb(255, 196, 0));
+    font-size: 1.5em;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.half-width h1{
+    font-size: 3em;
+}
+.half-width p{
+    color: gray;
+}
+.dream{
+    display: flex;
+    margin-top: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
