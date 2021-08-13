@@ -40,3 +40,50 @@ body{
     background-position: bottom right;
 
 }
+.experience{
+    margin-bottom: 100px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left,center;
+}
+.exp-continer {
+    display: flex;
+    width: 95%;
+    height: 300px;
+}
+
+.dev-area{
+    box-shadow: 5px 5px 60px gray;
+    font-size: 12px;
+    padding-left: 33px; 
+}
+#web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+
+
+}
+#baby-dev{  
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+
+    
+}
+.exp-continer h3{
+    font-size: 20px;
+}
+.exp-title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 20px;;
+}
+footer p{
+    color: gray;
+    text-align: center;
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
